@@ -67,8 +67,9 @@ export function Hero() {
             alt="Diëtiste Ümran Güney"
             width={1200}
             height={1500}
-            className="aspect-[4/5] w-full rounded-[2rem] object-cover shadow-xl ring-1 ring-black/5"
+            className="aspect-[4/5] w-full rounded-[2rem] bg-secondary object-contain object-center shadow-xl ring-1 ring-black/5"
           />
+
         </div>
       </div>
     </section>
