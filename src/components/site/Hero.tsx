@@ -33,7 +33,9 @@ export function Hero() {
           </p>
           <div className="flex flex-wrap gap-4">
             <a
-              href="#contact"
+              href="https://rosa.be/nl/hp/umran-guney/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="group inline-flex items-center gap-2 rounded-xl bg-primary px-7 py-4 text-sm font-medium text-primary-foreground shadow-md shadow-primary/20 transition-all hover:-translate-y-0.5 hover:shadow-lg hover:shadow-primary/30"
             >
               Maak een afspraak
