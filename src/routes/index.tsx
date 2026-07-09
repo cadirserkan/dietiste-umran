@@ -4,6 +4,7 @@ import { Hero } from "@/components/site/Hero";
 import { OverMij } from "@/components/site/OverMij";
 import { Werkwijze } from "@/components/site/Werkwijze";
 import { Tarieven } from "@/components/site/Tarieven";
+import { Praktijk } from "@/components/site/Praktijk";
 import { Contact } from "@/components/site/Contact";
 import { Footer } from "@/components/site/Footer";
 
@@ -20,6 +21,7 @@ function Index() {
         <OverMij />
         <Werkwijze />
         <Tarieven />
+        <Praktijk />
         <Contact />
       </main>
       <Footer />

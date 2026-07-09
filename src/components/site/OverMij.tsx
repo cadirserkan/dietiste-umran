@@ -1,4 +1,4 @@
-import foodImg from "@/assets/healthy-food.jpg";
+import portraitAsset from "@/assets/umran-portret.jpg.asset.json";
 import { useReveal } from "@/hooks/use-reveal";
 
 export function OverMij() {
@@ -12,15 +12,13 @@ export function OverMij() {
             <div className="relative mx-auto max-w-md">
               <div
                 aria-hidden
-                className="absolute -inset-6 -z-10 rounded-full bg-primary/10 blur-2xl"
+                className="absolute -inset-6 -z-10 rounded-[2rem] bg-primary/10 blur-2xl"
               />
               <img
-                src={foodImg}
-                alt="Gezonde ingrediënten"
-                width={1024}
-                height={1024}
+                src={portraitAsset.url}
+                alt="Portret van Ümran Güney"
                 loading="lazy"
-                className="aspect-square w-full rounded-full border-8 border-background object-cover shadow-2xl ring-1 ring-black/5"
+                className="aspect-[4/5] w-full rounded-[2rem] object-cover shadow-2xl ring-1 ring-black/5"
               />
             </div>
           </div>
