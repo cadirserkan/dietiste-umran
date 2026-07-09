@@ -30,10 +30,11 @@ export function Hero() {
             <span className="italic text-primary">betere levensstijl</span>
           </h1>
           <p className="max-w-lg text-base leading-relaxed text-foreground/70 sm:text-lg">
-            Ik ben Ümran, diëtiste met een passie voor voeding en gezondheid. Samen vinden we
-            stap voor stap een gezonde balans die bij jouw leven past — zonder strikte diëten,
-            met een duurzame aanpak.
+            Ik ben Ümran, diëtiste met een passie voor voeding en gezondheid. Samen zoeken we
+            naar een gezonde balans die echt bij jouw leven past, in jouw tempo en zonder
+            strikte diëten.
           </p>
+
           <div className="flex flex-wrap items-center gap-4 pt-2">
             <a
               href="https://rosa.be/nl/hp/umran-guney/"
