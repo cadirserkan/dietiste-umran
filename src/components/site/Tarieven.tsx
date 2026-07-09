@@ -27,7 +27,7 @@ export function Tarieven() {
             <span className="text-xs font-semibold uppercase tracking-widest text-primary">
               Tarieven
             </span>
-            <h2 className="mb-12 mt-4 text-3xl font-light sm:text-4xl">Transparante prijzen</h2>
+            <h2 className="mb-12 mt-4 text-3xl font-light sm:text-4xl">Consultaties &amp; tarieven</h2>
             <ul className="space-y-6">
               {prices.map((p) => (
                 <li
