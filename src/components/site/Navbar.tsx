@@ -2,6 +2,9 @@ import { useEffect, useState } from "react";
 import { Menu } from "lucide-react";
 import { Sheet, SheetContent, SheetTrigger, SheetTitle } from "@/components/ui/sheet";
 import { cn } from "@/lib/utils";
+import logoAsset from "@/assets/logo-dietiste.jpg.asset.json";
+
+const ROSA_URL = "https://rosa.be/nl/hp/umran-guney/";
 
 const links = [
   { href: "#home", label: "Home" },
@@ -34,9 +37,16 @@ export function Navbar() {
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between gap-4 px-4 sm:px-6">
         <a
           href="#home"
-          className="min-w-0 truncate text-base font-semibold tracking-tight text-primary sm:text-lg"
+          className="flex min-w-0 items-center gap-3"
         >
-          Diëtiste Ümran Güney
+          <img
+            src={logoAsset.url}
+            alt="Diëtiste Ümran Güney logo"
+            className="size-10 shrink-0 rounded-full object-cover sm:size-11"
+          />
+          <span className="min-w-0 truncate text-base font-semibold tracking-tight text-primary sm:text-lg">
+            Diëtiste Ümran Güney
+          </span>
         </a>
 
         <nav className="hidden items-center gap-8 md:flex">
