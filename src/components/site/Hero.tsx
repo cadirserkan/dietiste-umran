@@ -1,5 +1,5 @@
 import { ArrowRight } from "lucide-react";
-import heroImg from "@/assets/hero-portrait.jpg";
+import heroAsset from "@/assets/umran-hero.jpg.asset.json";
 import { useReveal } from "@/hooks/use-reveal";
 
 export function Hero() {
@@ -7,7 +7,10 @@ export function Hero() {
   const imgRef = useReveal<HTMLDivElement>();
 
   return (
-    <section id="home" className="relative overflow-hidden px-4 pb-24 pt-32 sm:px-6 sm:pt-40">
+    <section
+      id="home"
+      className="relative overflow-hidden px-4 pb-28 pt-32 sm:px-6 sm:pt-40 md:pb-36"
+    >
       <div
         aria-hidden
         className="pointer-events-none absolute -top-32 right-[-10%] size-[520px] rounded-full bg-primary/10 blur-3xl"
@@ -17,7 +20,7 @@ export function Hero() {
         className="pointer-events-none absolute -bottom-24 left-[-10%] size-[420px] rounded-full bg-accent/10 blur-3xl"
       />
 
-      <div className="mx-auto grid max-w-7xl items-center gap-12 md:grid-cols-2 md:gap-16">
+      <div className="mx-auto grid max-w-7xl items-center gap-14 md:grid-cols-2 md:gap-20">
         <div ref={textRef} className="reveal space-y-8">
           <span className="inline-block rounded-full border border-primary/20 bg-primary/5 px-4 py-1.5 text-xs font-semibold uppercase tracking-widest text-primary">
             Erkend Diëtiste · Diabeteseducator
@@ -27,11 +30,11 @@ export function Hero() {
             <span className="italic text-primary">betere levensstijl</span>
           </h1>
           <p className="max-w-lg text-base leading-relaxed text-foreground/70 sm:text-lg">
-            Ik ben Umran, diëtiste met een passie voor voeding en gezondheid. Ik help je graag
-            stap voor stap om een gezonde balans te vinden die bij jouw leven past — zonder
-            strikte diëten, maar met een duurzame aanpak. Samen werken we aan jouw doelen.
+            Ik ben Ümran, diëtiste met een passie voor voeding en gezondheid. Samen vinden we
+            stap voor stap een gezonde balans die bij jouw leven past — zonder strikte diëten,
+            met een duurzame aanpak.
           </p>
-          <div className="flex flex-wrap gap-4">
+          <div className="flex flex-wrap items-center gap-4 pt-2">
             <a
               href="https://rosa.be/nl/hp/umran-guney/"
               target="_blank"
@@ -43,20 +46,24 @@ export function Hero() {
             </a>
             <a
               href="#werkwijze"
-              className="inline-flex items-center rounded-xl bg-secondary px-7 py-4 text-sm font-medium text-foreground transition-all hover:bg-secondary/70"
+              className="inline-flex items-center rounded-xl px-2 py-4 text-sm font-medium text-foreground/70 underline-offset-4 transition-colors hover:text-primary hover:underline"
             >
-              Lees meer over mijn werkwijze
+              Lees over mijn werkwijze
             </a>
           </div>
         </div>
 
-        <div ref={imgRef} className="reveal relative">
+        <div ref={imgRef} className="reveal relative mx-auto w-full max-w-md md:max-w-none">
           <div
             aria-hidden
-            className="absolute -inset-4 -z-10 rounded-[2.5rem] bg-secondary/60 rotate-2"
+            className="absolute -inset-4 -z-10 rounded-[2.5rem] bg-secondary/70"
+          />
+          <div
+            aria-hidden
+            className="absolute -bottom-6 -right-6 -z-10 hidden size-40 rounded-full bg-primary/15 blur-2xl md:block"
           />
           <img
-            src={heroImg}
+            src={heroAsset.url}
             alt="Diëtiste Ümran Güney"
             width={1200}
             height={1500}

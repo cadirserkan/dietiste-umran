@@ -24,10 +24,11 @@ export function Tarieven() {
       <div ref={ref} className="reveal mx-auto max-w-7xl">
         <div className="grid gap-16 lg:grid-cols-2 lg:gap-20">
           <div>
-            <h2 className="mb-12 text-3xl font-light sm:text-4xl">
-              <span className="mb-4 block text-xs font-semibold uppercase tracking-widest text-primary">
-                Tarieven
-              </span>
+            <span className="mb-4 block text-xs font-semibold uppercase tracking-widest text-primary">
+              Consultaties
+            </span>
+            <h2 className="mb-12 text-5xl font-light leading-none tracking-tight sm:text-6xl md:text-7xl">
+              Tarieven
             </h2>
             <ul className="space-y-6">
               {prices.map((p) => (
