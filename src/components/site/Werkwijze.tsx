@@ -18,7 +18,7 @@ const steps = [
     n: "03",
     title: "Vervolgconsulten",
     duration: "20 – 30 min",
-    body: "In deze fase focussen we op het onderhouden van je balans en het voorkomen van terugval. We versterken behaalde resultaten en zorgen dat de nieuwe gewoontes echt beklijven. Online consultaties en huisbezoeken zijn mogelijk op aanvraag.",
+    body: "In deze fase focussen we op het onderhouden van je balans en het voorkomen van terugval. We versterken behaalde resultaten en zorgen dat de nieuwe gewoontes echt beklijven.",
   },
 ];
 
@@ -57,10 +57,6 @@ export function Werkwijze() {
           ))}
         </div>
 
-        <p className="mt-10 text-center text-sm italic text-foreground/50">
-          Online consultaties op aanvraag · Huisbezoeken mogelijk mits aanrekening
-          vervoerskosten.
-        </p>
       </div>
     </section>
   );
