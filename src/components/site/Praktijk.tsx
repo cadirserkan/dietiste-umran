@@ -14,9 +14,10 @@ export function Praktijk() {
             Een <span className="italic text-primary">rustige</span> plek om te starten
           </h2>
           <p className="text-foreground/60">
-            Een lichte, warme praktijkruimte waar je op je gemak bent — de ideale plek voor
-            een eerlijk gesprek over voeding en gezondheid.
+            In een lichte, warme praktijkruimte waar je op je gemak bent. Een fijne plek voor
+            een open gesprek over voeding en gezondheid.
           </p>
+
         </div>
         <div className="relative overflow-hidden rounded-[2rem] shadow-xl ring-1 ring-black/5">
           <img
