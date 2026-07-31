@@ -139,7 +139,7 @@ export function Contact() {
               disabled={submitting}
               className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-primary py-4 text-sm font-medium text-primary-foreground shadow-md shadow-primary/20 transition-all hover:-translate-y-0.5 hover:bg-primary/90 hover:shadow-lg disabled:opacity-70"
             >
-              {submitting ? "Verzenden…" : "Verzend bericht"}
+              {submitting ? "Verzenden …" : "Verzend bericht"}
               <Send className="size-4" />
             </button>
           </form>
