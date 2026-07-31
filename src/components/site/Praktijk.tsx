@@ -1,4 +1,3 @@
-import praktijkAsset from "@/assets/praktijkruimte.jpg.asset.json";
 import { useReveal } from "@/hooks/use-reveal";
 
 export function Praktijk() {
@@ -21,7 +20,7 @@ export function Praktijk() {
         </div>
         <div className="relative overflow-hidden rounded-[2rem] shadow-xl ring-1 ring-black/5">
           <img
-            src={praktijkAsset.url}
+            src="/kantoor.jpg"
             alt="De praktijkruimte van Diëtiste Ümran Güney"
             loading="lazy"
             className="aspect-[16/9] w-full object-cover"

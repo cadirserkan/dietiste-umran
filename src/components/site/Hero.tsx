@@ -1,5 +1,5 @@
 import { ArrowRight } from "lucide-react";
-import heroAsset from "@/assets/umran-hero.jpg.asset.json";
+
 import { useReveal } from "@/hooks/use-reveal";
 
 export function Hero() {
@@ -64,7 +64,7 @@ export function Hero() {
             className="absolute -bottom-6 -right-6 -z-10 hidden size-40 rounded-full bg-primary/15 blur-2xl md:block"
           />
           <img
-            src={heroAsset.url}
+            src="/umranStartPagina.jpg"
             alt="Diëtiste Ümran Güney"
             width={1200}
             height={1500}

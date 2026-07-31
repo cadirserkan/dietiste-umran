@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import { Menu } from "lucide-react";
 import { Sheet, SheetContent, SheetTrigger, SheetTitle } from "@/components/ui/sheet";
 import { cn } from "@/lib/utils";
-import logoAsset from "@/assets/logo-dietiste.jpg.asset.json";
 
 const ROSA_URL = "https://rosa.be/nl/hp/umran-guney/";
 
@@ -40,7 +39,7 @@ export function Navbar() {
           className="flex min-w-0 items-center gap-3"
         >
           <img
-            src={logoAsset.url}
+            src="/logoDietist.jpg"
             alt="Diëtiste Ümran Güney logo"
             className="size-10 shrink-0 rounded-full object-cover sm:size-11"
           />
